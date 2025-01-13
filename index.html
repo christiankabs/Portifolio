@@ -7,101 +7,85 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
+    <header class="hero">
         <div class="container">
-            <div class="header-content">
-                <h1>Christian Kabulo</h1>
-                <p>Ingénieur IT | Expert en Automatisation des Tests | Entrepreneur</p>
-                <a href="#contact" class="btn">Contactez-moi</a>
-            </div>
+            <h1>Christian Kabulo</h1>
+            <p>Ingénieur IT | Expert en Automatisation des Tests | Entrepreneur</p>
         </div>
     </header>
 
-    <nav>
+    <nav class="navigation">
         <ul>
             <li><a href="#about">À propos</a></li>
             <li><a href="#skills">Compétences</a></li>
             <li><a href="#projects">Projets</a></li>
-            <li><a href="#experience">Expérience</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
 
-    <section id="about">
-        <div class="container">
-            <h2>À propos</h2>
-            <p>
-                Je suis un ingénieur IT spécialisé dans l'automatisation des tests et la gestion de projets techniques. 
-                Avec plus de 5 ans d'expérience, je me concentre sur la création de solutions fiables et performantes, 
-                tout en accompagnant des équipes pluridisciplinaires vers l'excellence.
-            </p>
-        </div>
-    </section>
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>À propos</h2>
+                <p>
+                    Ingénieur passionné par les technologies et la création de solutions innovantes, 
+                    je cumule plus de 5 ans d'expérience dans l'automatisation des tests et la gestion de projets IT. 
+                    J'aime transformer des défis techniques en opportunités tout en garantissant des résultats fiables 
+                    et mesurables.
+                </p>
+            </div>
+        </section>
 
-    <section id="skills">
-        <div class="container">
-            <h2>Compétences</h2>
-            <div class="skills-list">
-                <div>
-                    <h3>Tests et Qualité</h3>
-                    <p>Selenium, JMeter, Postman</p>
-                </div>
-                <div>
-                    <h3>Infrastructure</h3>
-                    <p>Terraform, CI/CD, GitHub Actions</p>
-                </div>
-                <div>
-                    <h3>Cloud</h3>
-                    <p>AWS (certifié Cloud Practitioner)</p>
-                </div>
-                <div>
-                    <h3>Gestion</h3>
-                    <p>Standardisation, Leadership technique</p>
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>Compétences</h2>
+                <div class="skills-grid">
+                    <div class="skill">
+                        <h3>Automatisation des Tests</h3>
+                        <p>Selenium, JMeter, Postman</p>
+                    </div>
+                    <div class="skill">
+                        <h3>Infrastructure</h3>
+                        <p>Terraform, CI/CD, GitHub Actions</p>
+                    </div>
+                    <div class="skill">
+                        <h3>Cloud</h3>
+                        <p>AWS (certifié Cloud Practitioner)</p>
+                    </div>
+                    <div class="skill">
+                        <h3>Gestion</h3>
+                        <p>Standardisation, Leadership technique</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="projects">
-        <div class="container">
-            <h2>Projets</h2>
-            <div class="project-card">
-                <h3>Bibliothèque d’automatisation</h3>
-                <p>Création d'une bibliothèque pour accélérer les tests automatisés (Banque Nationale).</p>
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projets</h2>
+                <div class="project-list">
+                    <div class="project">
+                        <h3>Bibliothèque d’automatisation</h3>
+                        <p>Création d’une bibliothèque interne pour accélérer les cycles de tests (Banque Nationale).</p>
+                    </div>
+                    <div class="project">
+                        <h3>Infrastructure Cloud</h3>
+                        <p>Déploiement d'infrastructures via Terraform et intégration de pipelines CI/CD.</p>
+                    </div>
+                    <div class="project">
+                        <h3>Hackathon CharityOne</h3>
+                        <p>Développement d'une application encourageant les dons caritatifs (3e place).</p>
+                    </div>
+                </div>
             </div>
-            <div class="project-card">
-                <h3>Infrastructure Cloud</h3>
-                <p>Déploiement d’infrastructures avec Terraform et pipelines CI/CD robustes.</p>
-            </div>
-            <div class="project-card">
-                <h3>Hackathon CharityOne</h3>
-                <p>Développement d'une application encourageant les dons caritatifs (3e place).</p>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <section id="experience">
-        <div class="container">
-            <h2>Expérience</h2>
-            <ul>
-                <li><strong>Conseiller en Pratique de Test</strong> - Standardisation des processus de test, mentorat d’équipes.</li>
-                <li><strong>Ingénieur en Automatisation des Tests</strong> - Automatisation des tests pour réduire les délais et améliorer la fiabilité.</li>
-                <li><strong>Responsable Technique</strong> - Gestion d'équipes IT et déploiement d'infrastructures.</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="contact">
+    <footer id="contact" class="section footer">
         <div class="container">
             <h2>Contact</h2>
             <p>Email : <a href="mailto:christianroykabulo@gmail.com">christianroykabulo@gmail.com</a></p>
             <p>LinkedIn : <a href="http://linkedin.com/in/christian-kabulo-b-ing-91a773106" target="_blank">linkedin.com/in/christian-kabulo-b-ing</a></p>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Christian Kabulo. Tous droits réservés.</p>
         </div>
     </footer>
 </body>
